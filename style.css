@@ -12,7 +12,7 @@ header{
     color: blueviolet;
 }
 
-section{
+{
 background:greenyellow;
 padding-bottom: 80px;
 display: flex;
@@ -22,4 +22,16 @@ display: flex;
 
 .chamada-texto{
  margin-right: 5%;   
+}
+img{
+    height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left:20px;
+    padding-right:20px;
 }
